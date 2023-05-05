@@ -1,0 +1,23 @@
+{
+	"name": "Output_TestFile",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LinkAzureDataLake",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Example"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "drug.json",
+				"fileSystem": "output"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

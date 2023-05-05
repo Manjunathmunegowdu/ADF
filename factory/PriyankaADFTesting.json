@@ -1,0 +1,9 @@
+{
+	"name": "PriyankaADFTesting",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3a2dc829-38bb-44c2-930a-608f5d9fe0ac",
+		"tenantId": "56070e72-8b4a-4e6b-ad24-df524d03623b"
+	}
+}
